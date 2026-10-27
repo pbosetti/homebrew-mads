@@ -1,7 +1,7 @@
 class Complot < Formula
   desc "Real-time plotting from the shell, loosely inspired by the grammar of graphics"
   homepage "https://github.com/pbosetti/complot"
-  version "0.2.0"
+  version "0.2.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   livecheck do
@@ -11,23 +11,23 @@ class Complot < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/pbosetti/complot/releases/download/v0.2.0/complot-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "2a40ce6d58352c43b1c1136cae74ef63bf9ba45aa912077c2cbce1ef57f49904"
+      url "https://github.com/pbosetti/complot/releases/download/v0.2.1/complot-v0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "82d245d0ac8355204a59bc838c4a7ae37fbd4bde96d6467b5d67660df1a84c54"
     end
     on_intel do
-      url "https://github.com/pbosetti/complot/releases/download/v0.2.0/complot-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "fc71cd2db3d59197b3091a11f6542d6fdf1a2971fe0ac4f137847e0f67fea5b9"
+      url "https://github.com/pbosetti/complot/releases/download/v0.2.1/complot-v0.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "48eac06fbe7584a6ba4f69a9c1c109b3238f3f8b8a62947558a20ac64eda0c03"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/pbosetti/complot/releases/download/v0.2.0/complot-v0.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "4c57956b481032276ddb9ce65a120977173ef47df669c6fa986f4f037954fa80"
+      url "https://github.com/pbosetti/complot/releases/download/v0.2.1/complot-v0.2.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b29a62300ae7d334b14ac77d1d7518b4957c7be3cae348cb779b1ec5ff79c14e"
     end
     on_intel do
-      url "https://github.com/pbosetti/complot/releases/download/v0.2.0/complot-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a98859a842450405608528bfbd41a873423d66b4d754eef8b835ba3f0246decf"
+      url "https://github.com/pbosetti/complot/releases/download/v0.2.1/complot-v0.2.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "37e3a9ebf503b2f13d5b7e2fdd027e281aa8aa77b7787a690570e6176a4b8c1c"
     end
   end
 
