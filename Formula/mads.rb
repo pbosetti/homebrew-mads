@@ -1,8 +1,8 @@
 class Mads < Formula
   desc "Multi-Agent Distributed System"
   homepage "https://github.com/pbosetti/MADS"
-  url "https://github.com/pbosetti/MADS/releases/download/v2.5.0/Mads-v2.5.0-Darwin-universal.tar.gz"
-  sha256 "6646e07b80dbf4ce9b48cd3e98a4b0b3784486ec627b8e035b61ba77dd039c8d"
+  url "https://github.com/pbosetti/MADS/releases/download/v2.5.1/Mads-v2.5.1-Darwin-universal.tar.gz"
+  sha256 "09717bad0143f9e1aaded15ca3398dc55bfa100427d95935a841dda17dd7102c"
   license "Apache-2.0"
 
   livecheck do
