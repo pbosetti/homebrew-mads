@@ -1,7 +1,7 @@
 class Complot < Formula
   desc "Real-time plotting from the shell, loosely inspired by the grammar of graphics"
   homepage "https://github.com/pbosetti/complot"
-  version "0.2.3"
+  version "0.3.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   livecheck do
@@ -11,23 +11,23 @@ class Complot < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/pbosetti/complot/releases/download/v0.2.3/complot-v0.2.3-aarch64-apple-darwin.tar.gz"
-      sha256 "567a8098dc36b848081d5d65146b9abd559499944089cb738569cd9434a97cc2"
+      url "https://github.com/pbosetti/complot/releases/download/v0.3.0/complot-v0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "58dbe96ef8a45413a599aadcc0b255fd8b53f6a22a09487a9332ea5628bca26a"
     end
     on_intel do
-      url "https://github.com/pbosetti/complot/releases/download/v0.2.3/complot-v0.2.3-x86_64-apple-darwin.tar.gz"
-      sha256 "d18b99710c161cfa24694fdbf514cd9d2f46e950f0599537142517e857785332"
+      url "https://github.com/pbosetti/complot/releases/download/v0.3.0/complot-v0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "925f609eec5806834439b969e65fafc2a79daf7f1e84ba8d4211925c4483a153"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/pbosetti/complot/releases/download/v0.2.3/complot-v0.2.3-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6f87af5aeb9764aea923bc8797dcafbfe50a6f0d508faff7489bae313b603f19"
+      url "https://github.com/pbosetti/complot/releases/download/v0.3.0/complot-v0.3.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "10ae3a63b77736b8ab8e13879f98566e9d202dc87f775207cc29d6930ba017ab"
     end
     on_intel do
-      url "https://github.com/pbosetti/complot/releases/download/v0.2.3/complot-v0.2.3-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e2e9c86a386470509c418b933fe28a169d7468bed1fa336527a96896ceb297de"
+      url "https://github.com/pbosetti/complot/releases/download/v0.3.0/complot-v0.3.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f080be6ec9abecb763ec70f52bf02f33d74332eb1ceb0c97e4ba561d9aa20cd1"
     end
   end
 
